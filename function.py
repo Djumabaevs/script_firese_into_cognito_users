@@ -1,7 +1,7 @@
 import firebase_admin 
 from firebase_admin import credentials 
 from firebase_admin import auth 
-//lambda
+
  
 def lambda_handler(event, context): 
     s3 = boto3.client("s3") 
